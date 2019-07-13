@@ -1,9 +1,36 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      LOGIN
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Login</ion-card-title>
+            <ion-avatar>
+              <img src="data:image/png;base64,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">
+            </ion-avatar>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-label>Username</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Password</ion-label>
+              <ion-input type="Passwrod"></ion-input>
+            </ion-item>
+            <ion-button>Sign in</ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
